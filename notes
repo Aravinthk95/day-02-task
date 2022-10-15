@@ -1,0 +1,50 @@
+DIFFERENCE BETWEEN DOCUMENT & WINDOW OBJECTS
+    
+     In this article, we will see the document object & window object, their various properties & methods, along with knowing their implementation & the differences between them.
+
+DOCUMENT OBJECT:   
+
+     The document object represent a weeb page that is loaded in the browser.  By accessing the document object, we can access the element in the HTML page.  With the help of document objects, we can add dynamic content to our web page.  The document object can be accessed with a WINDOW.DOCUMENT or just DOCUMENT.
+
+Window object:
+
+     The window object is the topmost object of the DOM hierarchy.
+It represents a browser window or frame that display the contents of the webpage.  Whenever a window appears on the screen to display the contents of the document, the window object is created.
+
+DOCUMENT:
+
+1.	It represents any HTML document or web page that is loaded in the browser.
+2.	It is loaded inside the window.
+3.	It is the object of window property.
+4.	All the tags, elements with attributes in HTML are part of the document.
+5.	We can access the document from a window using the window document.
+6.	The document is part of (browser object model) and dom (Document object model).
+7.	Properties of document objects such as title, body, cookies etc can also be accessed by a window like this window.document.title.
+8.	SYNTAX: document.propertyname;
+9.	EXAMPLE: document.title : Will return the title of the document.
+
+Window:
+
+1.	 It represents a browser window or frame that displays the contents of the webpage.
+2.	It is the very first object that is loaded in the browser.
+3.	It is the object of the browser.
+4.	Global objects, functions, and varabiles of Javascript are members of the window object.
+5.	We can access the window from the window only i.e. window.window.
+6.	The window is part of BOM, not DOM.
+7.	Properties of the window object cannot be accessed by the document object.
+8.	SYNTAX: window.propertyname;
+9.	EXAMPLE: window.innerHeight : will return the height of the content area of the browser.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
